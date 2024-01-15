@@ -86,11 +86,11 @@ public:
    * Turn off the light.
    */
   void turnOn() {
-    thrystor.turnOn();
+    thyristor.turnOn();
   }
   
   void turnOff() {
-    thrystor.turnOff();
+    thyristor.turnOff();
   }
 
   static float getFrequency() {
