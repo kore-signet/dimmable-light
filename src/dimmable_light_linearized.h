@@ -85,8 +85,12 @@ public:
   /**
    * Turn off the light.
    */
+  void turnOn() {
+    thrystor.turnOn();
+  }
+  
   void turnOff() {
-    setBrightness(0);
+    thrystor.turnOff();
   }
 
   static float getFrequency() {
